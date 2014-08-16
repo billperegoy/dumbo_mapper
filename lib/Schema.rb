@@ -16,4 +16,5 @@ class Schema
   def database
     @schema[DATABASE_KEYWORD]
   end
+
 end
