@@ -30,6 +30,6 @@ end
   it "should accept a valid schema and find db name" do
     schema = Schema.new
     schema.set(valid_schema)
-    expect(schema.database).to eq('db_name_fail')
+    expect(schema.database).to eq('db_name')
   end
 end
