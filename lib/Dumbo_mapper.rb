@@ -1,3 +1,5 @@
+# DumboMapper in the top level class exposed to users.
+#
 class DumboMapper
   DATABASE_KW = 'database'
 
