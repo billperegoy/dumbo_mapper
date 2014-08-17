@@ -17,4 +17,11 @@ class Schema
     @schema[DATABASE_KEYWORD]
   end
 
+  def collections
+    @schema[COLLECTIONS_KEYWORD].keys
+  end
+
+  def get_fields(collection)
+    @schema[COLLECTIONS_KEYWORD][collection].keys
+  end
 end
