@@ -1,0 +1,7 @@
+collections:
+  coll_1:
+    field_1: string :key
+    field_2: integer 
+  coll_2:
+    field_3: date :key
+    field_4: list 

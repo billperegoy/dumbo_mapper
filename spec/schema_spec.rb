@@ -22,7 +22,7 @@ describe Schema do
           'field_4' => {
             'type' => 'list'
           }
-        },
+        }
       }
     }
   end

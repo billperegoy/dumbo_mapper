@@ -8,14 +8,14 @@ describe Field do
   end
 
   it "can accept attributes" do
-    field = Field.new(name: 'field_name')
+    field = Field.new('field_name')
     field.add_attr('type', 'date')
     field.add_attr('key', true)
     expect(field.attr_count).to eq(2)
   end
 
   it "can lookup a particular attribute name" do
-    field = Field.new(name: 'field_name')
+    field = Field.new('field_name')
     field.add_attr('type', 'date')
     field.add_attr('key', true)
 
