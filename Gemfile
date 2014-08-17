@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
-gem 'rspec'
-gem 'rake'
+gem 'bson_ext'
 gem 'cane'
 gem 'mongo'
+gem 'rake'
+gem 'rspec'
