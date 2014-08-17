@@ -1,3 +1,4 @@
+require 'mongo'
 require 'psych'
 
 require_relative '../lib/Collection'
